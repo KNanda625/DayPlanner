@@ -21,8 +21,12 @@ body {
     border-bottom: 10px solid black;
     font-family: 'Shadows Into Light', cursive;
   }
+
+  .container {
+    margin-bottom: 5%;
+  }
   
-  .description{
+  .description {
     white-space: pre-wrap;
   }
   
