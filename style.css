@@ -3,50 +3,37 @@ body {
     font-size: 16px;
     line-height: 1;
   }
-  
-  /* textarea {
-    background: transparent;
-    border: none;
-    resize: none;
-    color: #000000;
-    border-left: 1px solid black;
-    padding: 10px;
-  } */
-  
-  .jumbotron {
+    
+  header {
+    margin-bottom: 1%;
     text-align: center;
     background-color: #19334d;
     color: white;
     border-radius: 0;
-    border-bottom: 10px solid black;
+    border-bottom: 5px solid #777777;
     font-family: 'Shadows Into Light', cursive;
+  }
+
+  h1 {
+    margin-bottom: 2%;
   }
 
   .container {
     margin-bottom: 5%;
   }
   
-  .description {
-    white-space: pre-wrap;
-  }
-  
-  #time-block {
-    text-align: center;
-    border-radius: 15px;
-    background-color: #77dd77;
-    padding-top: 1%;
-  }
-
-  #hour {
+  .col-sm-1 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 130%;
     text-align: center;
     border-radius: 15px;
     border: 1px solid gray;
     background-color: rgb(146, 180, 245);
-    padding-top: 2.5%; 
+    padding-top: 1.5%; 
     font-weight: bold;
   }
 
-  #to-do {
+  .col-sm-10 {
     font-family: 'Shadows Into Light', cursive;
     font-size: 200%;
     background-color: lightgray; 
@@ -56,55 +43,42 @@ body {
     width: 100%;
   }
 
-  #save {
+  .savebtn {
     text-align: center;
     border-radius: 15px;
     border: 1px solid gray;
     background-color: blue;
-    padding-top: 1.8%;
+    padding-top: 1%;
+  }
+
+  .savebtn i:hover {
+    font-size: 20px;
+    transition: all .3s ease-in-out;
   }
 
   .row {
     /* white-space: pre-wrap; */
-    height: 80px;
+    height: 55px;
     /* border-top: 1px solid gray;
     border-bottom: 1px solid gray; */
     /* background-color: lightgray; */
     border-radius: 15px;
   }
-  
-  .hour {
-    background-color: #ffffff;
-    color: #000000;
-    border-top: 1px dashed #000000;
-  }
-  
-  .past {
-    background-color: #d3d3d3;
-    color: white;
-  }
-  
-  .present {
-    background-color: #ff6961;
-    color: white;
-  }
-  
-  .future {
-    background-color: #77dd77;
-    color: white;
-  }
-  
-  .saveBtn {
-    border-left: 1px solid black;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background-color: #06AED5;
-    color: white;
-  }
-  
-  .saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-  }
+      
 
+
+  #footer {
+    clear: both;
+    padding: 15px;
+    background-color: #19334d;
+    color: white;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 150%;
+    text-align: center;
+    border-top: 4px solid #777777;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  } 
   
